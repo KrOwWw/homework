@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #181E34;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+/* HEADER */
+
+header {
+    height: 114px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.logo {
+    width: 48px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.links {
+    align-self: center;
+}
+
+.links ul{
+    display: flex;
+}
+
+.link {
+    list-style-type: none;
+}
+
+.link a {
+    padding-right: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.login button {
+    font-family: "Montserrat", sans-serif;
+    color: #2766ae;
+    font-weight: 500;
+    font-size: 16px;
+    border: 0;
+    border-radius: 100px;
+    padding: 14px 30px;
+    width: 113px;
+    height: 48px;
+}
+
+/* MAIN */
+
+.first_sec {
+    background-image: url("../img/Rectangle\ 1.png");
+    height: 508px;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header1 {
+    font-weight: 600;
+    font-size: 40px;  
+    padding-bottom: 70px;  
+}
+
+.content1 {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+}
+
+.info {
+    margin-right: 150px;
+    width: 436px;
+}
+
+.info div {
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.info div span {
+    font-weight: 700;
+    font-size: 16px;
+    color: #01a2cb;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 436px;
+}
+
+.first, .second {
+    border: 0;
+    border-radius: 100px;
+    width: 320px;
+    height: 56px;
+    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+    margin-bottom: 5px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+    height: 800px;
+}
+
+.header2 {
+    font-weight: 600;
+    font-size: 40px; 
+}
+
+.content2 {
+    padding-top: 35px;
+    width: 512px;
+}
+
+.blocks1 {
+    padding-top: 60px;
+    display: flex;
+}
+
+.blocks1 div {
+    background: #197CB8;
+    border: 2px solid #176bae;
+    border-radius: 16px;
+    padding: 28px;
+    width: 200px;
+    height: 140px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin-right: 28px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blocks1 div h1 {
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.blocks2 {
+    padding-top: 30px;
+    display: flex;
+}
+
+.blocks2 div {
+    background: #197CB8;
+    border: 2px solid #176bae;
+    border-radius: 16px;
+    padding: 28px;
+    width: 200px;
+    height: 140px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin-right: 28px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blocks2 div h1 {
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.third {
+    border: 0;
+    border-radius: 100px;
+    padding: 18px 30px;
+    width: 436px;
+    height: 56px;
+    background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+    margin: 30px 0 120px 0;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content3 {
+    width: 267px;
+}
+
+footer {
+    padding-top: 60px;
+}
+
+.list1 h1 {
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.list1 li {
+    padding-bottom: 15px;
+    list-style-type: none;
+}
+
+.list1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.list2 h1 {
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.list2 li {
+    padding-bottom: 15px;
+    list-style-type: none;
+}
+
+.list2 a {
+    color: #fff;
+    text-decoration: none;
+}
