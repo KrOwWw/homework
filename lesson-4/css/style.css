@@ -61,12 +61,16 @@ header {
     padding: 14px 30px;
     width: 113px;
     height: 48px;
+    cursor: pointer;
 }
 
 /* MAIN */
 
 .first_sec {
     background-image: url("../img/Rectangle\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 508px;
     color: #fff;
 
@@ -108,6 +112,7 @@ header {
     display: flex;
     flex-direction: column;
     width: 436px;
+    cursor: pointer;
 }
 
 .first, .second {
@@ -210,6 +215,7 @@ header {
     margin: 30px 0 120px 0;
     color: #fff;
     font-family: "Montserrat", sans-serif;
+    cursor: pointer;
 }
 
 footer {
