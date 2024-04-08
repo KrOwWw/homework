@@ -1,0 +1,250 @@
+:root {
+    --accent-color: #DBA069;
+    --accent-shadow: #842231;
+    --accent-bg: #842231b9;
+    --general-text: #333333;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+.body {
+    font-family: "Fira Sans", sans-serif;
+    line-height: 1;
+    color: var(--general-text);
+}
+
+.container {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+/* ======================== */
+
+.header {
+    color: #fff;
+    background: url("../img/content/header-bg.jpg") 50% 50% / cover no-repeat;
+}
+.header__top {
+    padding-bottom: 130px;
+}
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+}
+.header__links {
+    display: flex;
+    flex-direction: column;
+}
+.header__contact {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 35px;
+    padding-bottom: 20px;
+}
+.whatsapp {
+}
+.phone-number {
+    display: flex;
+    gap: 10px;
+    padding: 10px 20px;
+    border: 1px solid var(--accent-color);
+    border-radius: 5px;
+    font-size: 20px;
+}
+.header__nav {
+    
+}
+.nav__list {
+    display: flex;
+    gap: 2vw;
+
+}
+.nav__item {
+}
+.nav__link {
+    position: relative;
+}
+.nav__link::after {
+    content: '';
+    top: 20px;
+    left: 0;
+    height: 4px;
+    width: 0;
+    background: var(--accent-color);
+    position: absolute;
+    transition: .4s;
+}
+.nav__link:hover::after {
+    width: 100%;
+}
+
+/* ====================== */
+
+.header__hero {
+    padding-bottom: 150px;
+}
+.hero__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.hero__content {
+}
+.hero__title {
+    font-weight: 700;
+    font-size: 38px;
+    padding-bottom: 30px;
+}
+.hero__button{
+    border: 0;
+    background: var(--accent-color);
+    color: var(--general-text);
+    font-size: 18px;
+    font-weight: 700;
+    width: 245px;
+    height: 65px;
+    margin-bottom: 45px;
+}
+.hero__subtitle {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 45px;
+}
+.hero__details {
+    display: flex;
+    align-items: center;
+    width: 483px;
+    height: 107px; 
+}
+.hero__details h1 {
+    font-weight: 400;
+    font-size: 128px;
+    line-height: .84%;
+}
+.hero__details span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    padding-right: 35px;
+}
+.hero__info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 300px;
+}
+
+.hero__info span {
+    font-weight: 700;
+}
+
+.hero__text {
+}
+
+/* ================== */
+
+.main__about {
+}
+.about__inner {
+    display: flex;
+    gap: 60px;
+    padding-top: 110px;
+}
+.about__content {
+}
+.content__title {
+    font-weight: 700;
+    font-size: 48px;
+    padding-bottom: 60px;
+}
+.about__title-text {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+.about__title-text h3 {
+    padding-top: 40px;
+    font-weight: 700;
+}
+
+.about__company {
+    padding-top: 65px;
+}
+
+.about__company h3 {
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.about__company p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.1;
+    padding-bottom: 70px;
+}
+.about__mission h3 {
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.about__mission p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.1;
+}
+.about__target {
+    position: relative;
+}
+.about__target img {
+    max-width: 484px;
+    margin-bottom: 145px;
+    box-shadow: 45px 35px 0px var(--accent-shadow);
+}
+.about__target::after {
+    content: '';
+    background: url("../img/decor/about-bg.png") no-repeat;
+    z-index: -1;
+    top: 25px;
+    left: 75px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.target__title {
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.target__description {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+/* ================== */
+
+.footer {
+    padding: 100px 0 0 30px;
+}
+.footer__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.link {
+    color: var(--accent-shadow);
+    text-decoration: underline;
+}
