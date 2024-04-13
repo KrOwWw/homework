@@ -1,0 +1,14 @@
+.footer {
+    padding: 100px 0 25px 0;
+}
+.footer__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.link {
+    color: var(--accent-shadow);
+    text-decoration: underline;
+}

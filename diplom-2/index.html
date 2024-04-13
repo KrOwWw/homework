@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="body">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__top-inner">
+                        <a href="/" class="header__logo">
+                            <img src="./img/icons/logos/logo.png" alt="Логотип">
+                        </a>
+                        <div class="header__links">
+                            <div class="header__contact">
+                                <a href="#" class="whatsapp">
+                                    <img src="./img/icons/socials/whatsapp.svg" alt="">
+                                </a>
+                                <a href="tel:+77000011888" class="phone-number">
+                                    <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.3205 22.6901L20.3439 22.6526L22.6769 17.9171L15.8619 12.8058L12.7263 15.1574C11.5438 15.087 10.4281 14.5855 9.59049 13.7479C8.75285 12.9102 8.25139 11.7946 8.18104 10.612L10.5326 7.47647L5.42145 0.66153L0.725491 2.97514L0.685842 2.99461L0.648436 3.01807C0.449498 3.14153 0.28547 3.31386 0.171968 3.51865C0.0584664 3.72343 -0.000731851 3.95386 6.8291e-06 4.188L6.77569e-06 5.40994C6.67276e-06 7.76435 0.463742 10.0957 1.36474 12.2709C2.26573 14.4461 3.58635 16.4225 5.25117 18.0873C6.91599 19.7522 8.89242 21.0728 11.0676 21.9738C13.2428 22.8747 15.5742 23.3385 17.9286 23.3385H19.1506C19.3847 23.3392 19.6151 23.28 19.8199 23.1665C20.0247 23.053 20.197 22.889 20.3205 22.6901ZM17.9286 21.5885C9.00769 21.5885 1.75001 14.3308 1.75001 5.40994V4.42119L4.89251 2.8732L8.34521 7.4768L6.423 10.0398V10.3315C6.42495 12.0772 7.11929 13.7508 8.35367 14.9852C9.58806 16.2196 11.2617 16.9139 13.0074 16.9159H13.299L15.862 14.9937L20.4653 18.446L18.9171 21.5885H17.9286Z" fill="white"/>
+                                    </svg>
+                                    +7 700 001 18 88
+                                </a>
+                            </div>
+                            <nav class="header__nav">
+                                <ul class="nav__list">
+                                    <div class="nav__wrap">
+                                        <li class="nav__item">
+                                            <a href="#about" class="nav__link">
+                                                О проекте
+                                            </a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a href="#location" class="nav__link">
+                                                Локация
+                                            </a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a href="#advantages-city" class="nav__link">
+                                                Преимущества
+                                            </a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a href="#nura-elite" class="nav__link">
+                                                Почему мы?
+                                            </a>
+                                        </li>
+                                    </div>
+                                    <div class="nav__wrap">
+                                        <li class="nav__item">
+                                            <a href="#payment" class="nav__link">
+                                                Способы оплаты
+                                            </a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a href="#contacts" class="nav__link">
+                                                Контакты
+                                            </a>
+                                        </li>
+                                        <li class="nav__item opened-modal">
+                                            <a href="#" class="nav__link">
+                                                МОДАЛКА
+                                            </a>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </nav>
+                            <a href="#" class="burger-icon">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="header__hero">
+                <div class="container">
+                    <div class="hero__inner">
+                        <div class="hero__content">
+                            <h1 class="hero__title">
+                                Элитный коттеджный городок <br> в г. Нур-Султан
+                            </h1>
+                            <a href="#">
+                                <button class="hero__button button">
+                                    Скачать презентацию
+                                </button>
+                            </a>
+                            <h3 class="hero__subtitle">
+                                36 коттеджей
+                            </h3>
+                            <div class="hero__details">
+                                <div>
+                                    <h1>3</h1>
+                                    <span>коттеджа <br>368 м2 <br> на 5 сотках</span>
+                                </div>
+                                
+                                <div>
+                                    <h1>33</h1>
+                                    <span>коттеджа <br>368 м2 <br> на 5 сотках</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="hero__info">
+                            <div class="hero__text">
+                                <span>Строительные работы</span> начались в сентября 2021 года.
+                            </div>
+                            <div class="hero__text">
+                                <span>Срок сдачи</span> коттеджей - I квартал 2022 года
+                            </div>
+                            <div class="hero__text">
+                                <span>Срок сдачи</span> всего коттеджного городка - II квартал 2022 года
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <main class="main">
+            <section class="main__about" id="about">
+                <div class="container">
+                    <div class="about__inner">
+                        <div class="about__content">
+                            <h1 class="content__title title">
+                                О проекте
+                            </h1>
+                            <div class="about__title-text">
+                                Элитный закрытый коттеджный городок в г. Нур-Султан состоящий из:
+
+                                <h3>36 коттеджей:</h3>
+                                - 368 м2 на 10 сотках <br>
+                                - 179 м2 на 5 сотках
+                            </div>
+                            <div class="about__company">
+                                <h3 class="subtitle">О компании</h3>
+                                <p>
+                                    “MM Group” Группа Строительных Компании – современная и динамично развивающаяся группа компаний, оказывающая широкий спектр услуг в строительном бизнесе от проектирования до сдачи объектов под ключ. Свою деятельность в строительном бизнесе начала осуществлять с 2013 года и прочно зарекомендовала себя надежной Казахстанской строительной компанией не только на территории Республики Казахстан, но и за рубежом. Учредителем и генеральным директором группы строительных компаний «MM Group» является - Мольдир Суюншали.
+                                </p>
+                            </div>
+                            <div class="about__mission">
+                                <h3>Миссия</h3>
+                                <p>
+                                    Приоритетом группы строительных компаний «MM Group» является профессиональный подход с применением инновационных решении в строительстве воздвигаемых объектов, опытный коллектив, качественные материалы и своевременность сдачи объектов с доступной возможностью приобретения не только жилья, но и других объектов недвижимости.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about__target">
+                            <img src="./img/content/company.jpg" alt="">
+                            <h3 class="target__title">
+                                Цель
+                            </h3>
+                            <p class="target__description">
+                                Укрепление статуса компании, которая способна обеспечить потребителя доступной и качественной недвижимостью в срок. Развитие, надежность и качество!
+                            </p>
+                            <div class="target__mission">
+                                <h3>Миссия</h3>
+                                <p>
+                                    Приоритетом группы строительных компаний «MM Group» является профессиональный подход с применением инновационных решении в строительстве воздвигаемых объектов, опытный коллектив, качественные материалы и своевременность сдачи объектов с доступной возможностью приобретения не только жилья, но и других объектов недвижимости.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__cottage">
+                <div class="container">
+                    <div class="cottage__inner">
+                        <h1 class="cottage__title title">
+                            Коттеджи
+                        </h1>
+                    </div>
+                </div>
+                <div class="cottage__slider-slider">
+                    <div class="cottage__slider">
+                        <button class="cottage__prev">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="25" cy="25" r="25" fill="#842231"/>
+                                <g clip-path="url(#clip0_111_220)">
+                                    <path d="M23.0328 32.925L15.5647 25.4578L35.5417 25.4578C35.7948 25.4578 36 25.2526 36 24.9995C36 24.7464 35.7948 24.5411 35.5417 24.5411L15.5647 24.5411L23.0328 17.074C23.2087 16.8919 23.2036 16.6018 23.0216 16.4259C22.844 16.2544 22.5624 16.2544 22.3848 16.4259L14.1348 24.6759C13.9556 24.8546 13.9552 25.1448 14.134 25.3241C14.1342 25.3243 14.1345 25.3246 14.1348 25.3249L22.3848 33.5749C22.5668 33.7508 22.857 33.7457 23.0329 33.5636C23.2045 33.386 23.2045 33.1044 23.0329 32.9268L23.0328 32.925Z" fill="#FFC107"/>
+                                    <path d="M13.9997 24.9996C13.9995 24.8779 14.0477 24.7612 14.1336 24.6751L22.3836 16.4251C22.5657 16.2492 22.8559 16.2543 23.0317 16.4363C23.2033 16.6139 23.2033 16.8955 23.0317 17.0731L15.1062 24.9995L23.0317 32.925C23.2076 33.1071 23.2025 33.3972 23.0205 33.5731C22.8428 33.7447 22.5613 33.7447 22.3836 33.5731L14.1336 25.3231C14.0479 25.2373 13.9998 25.1209 13.9997 24.9996Z" fill="white"/>
+                                    <path d="M14 24.9995C14 24.7464 14.2052 24.5411 14.4583 24.5411L35.5417 24.5411C35.7948 24.5412 36 24.7464 36 24.9995C36 25.2526 35.7948 25.4579 35.5417 25.4579L14.4583 25.4579C14.2052 25.4579 14 25.2526 14 24.9995Z" fill="white"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_111_220">
+                                        <rect width="22" height="22" fill="white" transform="translate(36 14) rotate(90)"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </button>
+                        
+                        <!-- <div class="container"> -->
+                            <div class="cottage__swiper swiper">
+                                <div class="cottage__wrapper swiper-wrapper">
+                                    <div class="cottage__slide swiper-slide">
+                                        <img class="cottage__img" src="./img/content/cottage.png" alt="">
+                                        <div class="cottage__drawing">
+                                            <h3 class="cottage__subtitle">
+                                                179 м2
+                                            </h3>
+                                            <img src="./img/content/drawing.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="cottage__slide swiper-slide">
+                                        <img class="cottage__img" src="./img/content/cottage.png" alt="">
+                                        <div class="cottage__drawing">
+                                            <h3 class="cottage__subtitle">
+                                                179 м2
+                                            </h3>
+                                            <img src="./img/content/drawing.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="cottage__slide swiper-slide">
+                                        <img class="cottage__img" src="./img/content/cottage.png" alt="">
+                                        <div class="cottage__drawing">
+                                            <h3 class="cottage__subtitle">
+                                                179 м2
+                                            </h3>
+                                            <img src="./img/content/drawing.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- </div> -->
+    
+                        <button class="cottage__next">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="25" cy="25" r="25" fill="#842231"/>
+                                <g clip-path="url(#clip0_111_214)">
+                                    <path d="M26.9672 17.075L34.4353 24.5422L14.4583 24.5422C14.2052 24.5422 14 24.7474 14 25.0005C14 25.2536 14.2052 25.4589 14.4583 25.4589L34.4353 25.4589L26.9672 32.926C26.7913 33.1081 26.7964 33.3982 26.9784 33.5741C27.156 33.7456 27.4376 33.7456 27.6152 33.5741L35.8652 25.3241C36.0444 25.1454 36.0448 24.8551 35.866 24.6759C35.8658 24.6757 35.8655 24.6754 35.8652 24.6751L27.6152 16.4251C27.4331 16.2492 27.143 16.2543 26.9671 16.4364C26.7955 16.614 26.7955 16.8956 26.9671 17.0732L26.9672 17.075Z" fill="#FFC107"/>
+                                    <path d="M36.0003 25.0004C36.0005 25.1221 35.9523 25.2388 35.8664 25.3249L27.6164 33.5749C27.4343 33.7508 27.1441 33.7457 26.9683 33.5637C26.7967 33.3861 26.7967 33.1045 26.9683 32.9269L34.8938 25.0005L26.9683 17.075C26.7924 16.8929 26.7975 16.6028 26.9795 16.4269C27.1572 16.2553 27.4387 16.2553 27.6164 16.4269L35.8664 24.6769C35.9521 24.7627 36.0002 24.8791 36.0003 25.0004Z" fill="white"/>
+                                    <path d="M36 25.0005C36 25.2536 35.7948 25.4589 35.5417 25.4589L14.4583 25.4589C14.2052 25.4588 14 25.2536 14 25.0005C14 24.7474 14.2052 24.5421 14.4583 24.5421L35.5417 24.5421C35.7948 24.5421 36 24.7474 36 25.0005Z" fill="white"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_111_214">
+                                        <rect width="22" height="22" fill="white" transform="translate(14 36) rotate(-90)"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="main__location" id="location">
+                <div class="container">
+                    <div class="location__inner">
+                        <div class="location__content">
+                            <h1 class="location__title title">
+                                Локация
+                            </h1>
+                            <div class="location__text">
+                                <div class="text">
+                                    Закрытый коттеджный городок Nura Elite расположен в элитном и перспективном районе столицы, рядом с зелёным поясом по соседству с Vella Village.
+                                </div>
+                                <div class="text">
+                                    Nura Elite - это прекрасное пространство для уединения и активной семейной жизни в гармонии с природой, без городского шума с удобной транспортной развязкой.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="location__img">
+                            <img src="./img/content/location.png" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="main__advantages-city" id="advantages-city">
+                <div class="container">
+                    <div class="advantages-city__inner">
+                        <h1 class="advantages-city__title title">
+                            Основные преимущества городка
+                        </h1>
+                        <div class="advantages-city__grid">
+                            <div class="advantages-city__item city-item1">
+                                <img src="./img/icons/advantages/clarity_map-line.svg" alt="">
+                                <div class="advantages__content">
+                                    <div class="advantages__text">
+                                        Выгодное месторасположение
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="advantages-city__item city-item2">
+                                <img src="./img/icons/advantages/safety.svg" alt="">
+                                <div class="advantages__content">
+                                    <div class="advantages__text">
+                                        Охраняемая территория
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="advantages-city__item city-item3">
+                                <img src="./img/icons/advantages/fence.svg" alt="">
+                                <div class="advantages__content">
+                                    <div class="advantages__text">
+                                        Городок по периметру ограждён 
+3-метровым забором, оснащён системой видеонаблюдения 24/7
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="advantages-city__item city-item4">
+                                <img src="./img/icons/advantages/arm-chair.svg" alt="">
+                                <div class="advantages__content">
+                                    <div class="advantages__text">
+                                        Здесь вы почувствуете уединенность, безопасность и комфорт
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="advantages-city__item city-item5">
+                                <img src="./img/content/checkpoint.jpg" alt="">
+                            </div>
+                            <div class="advantages-city__item city-item6">
+                                <img src="./img/icons/advantages/house.svg" alt="">
+                                <div class="advantages__content">
+                                    <div class="advantages__text">
+                                        Индивидуальные участки ограждены 2-метровыми заборами
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="advantages-city__item city-item7">
+                                <img src="./img/icons/advantages/mobile.svg" alt="">
+                                <div class="advantages__content">
+                                    <div class="advantages__text">
+                                        Cобственное 
+приложение
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="advantages-city__item city-item8">
+                                <img src="./img/icons/advantages/wall.svg" alt="">
+                                <div class="advantages__content">
+                                    <div class="advantages__text">
+                                        Каждому владельцу коттеджа даётся возможность на своем земельном участке возводить дополнительные застройки: баню, сауну, летнюю кухню и др.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <section class="main__nura-elite" id="nura-elite">
+                <div class="container">
+                    <div class="nura-elite__inner">
+                        <h1 class="nura-elite__title title">
+                            Почему NURA ELITE?
+                        </h1>
+                        <div class="nura-elite__content">
+                            <img class="content__cottage" src="./img/content/nura-elite.png" alt="">
+                            <div class="nura-elite__advantages">
+                                <div class="advantages__grid">
+                                    <div class="advantages__item item1">
+                                        <img src="./img/icons/advantages/lightning.svg" alt="">
+                                        <div class="advantages__content">
+                                            <h3 class="advantages__subtitle">
+                                                Энергоэффектиность
+                                            </h3>
+                                            <div class="advantages__text">
+                                                Дома сохраняют тепло зимой и прохладу летом
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="advantages__item item2">
+                                        <img src="./img/icons/advantages/eco.svg" alt="">
+                                        <div class="advantages__content">
+                                            <h3 class="advantages__subtitle">
+                                                Экологически чистый район
+                                            </h3>
+                                            <div class="advantages__text">
+                                                Городок расположен рядом с лесополосой и к. Нура-Есиль
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="advantages__item item3">
+                                        <img src="./img/icons/advantages/safety.svg" alt="">
+                                        <div class="advantages__content">
+                                            <h3 class="advantages__subtitle">
+                                                Безопасность
+                                            </h3>
+                                            <div class="advantages__text">
+                                                Закрытый городок с круглосуточным видеонаблюдением
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="advantages__item item4">
+                                            <img src="./img/icons/advantages/drop.svg" alt="">
+                                            <div class="advantages__content">
+                                                <h3 class="advantages__subtitle">
+                                                Коммуникации
+                                            </h3>
+                                            <div class="advantages__text">
+                                                Централизованное водоснабжение, энергоснабжение и канализация.
+                                                <br><br>
+Отопительная система и горячая вода - это один общий газгольдер на весь городок, функционирующий за счет газа.
+</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__tech" id="tech">
+                <div class="container">
+                    <div class="tech__inner">
+                        <div class="tech__title title">
+                            Технология строения
+                        </div>
+                        <div class="tech__designs">
+                            <nav class="design__list">
+                                <ul class="desing__items first">
+                                    <li class="design__item">
+                                        <img src="./img/content/tech/wall-design.png" alt="">
+                                        <div class="accordion">
+                                            <h3 class="design__subtitle subtitle">
+                                                Конструкция стены
+                                            </h3>
+                                            <span></span>
+                                        </div>
+                                        <p class="design__text active">
+                                            Двойная кладка из жжённого красного кирпича - 38/40 см, утепление минеральной плитой - 10 см., и облицовка HPL и ФБЦ панелью
+                                        </p>
+                                    </li>
+                                    <li class="design__item">
+                                        <img src="./img/content/tech/door-design.png" alt="">
+                                        <div class="accordion">
+                                            <h3 class="design__subtitle subtitle">
+                                                Конструкция двери
+                                            </h3>
+                                            <span></span>
+                                        </div>
+                                        <p class="design__text">
+                                            Технология IZO TERMO. Двери не соприкасаются с наружными. Между ними расположен изолятор - щит из португальского пробкового дуба толщиной в 8 мм. IZO TERMO устраняет “мостик холода” и не дает теплу уходить из дома. С этой технологией вам не нужен тамбур и вторая дверь.
+                                        </p>
+                                    </li>
+                                    <li class="design__item">
+                                        <img src="./img/content/tech/facade-design.png" alt="">
+                                        <div class="accordion">
+                                            <h3 class="design__subtitle subtitle">
+                                                Конструкция Фасада
+                                            </h3>
+                                            <span></span>
+                                        </div>
+                                        <p class="design__text">
+                                            HPL панель - это высококачественная строительная продукция для долговечной облицовки фасада.
+            Стойкость на погодные воздействия +180 с/ -180с с высоким эффектом защиты от атмосферных воздействий.
+            Данная защита обеспечивается за счет применения акрилополиуретановых смол с двойным отверждением.
+            Относится к экологичным материалам.
+            
+                                        </p>
+                                    </li>
+                                </ul>
+                                <ul class="desing__items">
+                                    <li class="design__item">
+                                        <img src="./img/content/tech/window-design.png" alt="">
+                                        <div class="accordion">
+                                            <h3 class="design__subtitle subtitle">
+                                                Конструкция окна
+                                            </h3>
+                                            <span></span>
+                                        </div>
+                                        <p class="design__text">
+                                            Высокая экологичность, безопасность, надёжность и долговечность, усиленная теплоизолирующая способность, которая обеспечивается пятикамерным строением профиля с тройным остеклением и шумоизоляцией (система Helios рассчитана на стеклопакеты толщиной 44 мм с воздушной прослойкой в 16 мм, проходя через которые низкочастотные шумы теряют свою интенсивность, что очень ценят жители) по технологии FUNKE
+                                        </p>
+                                    </li>
+                                    <li class="design__item">
+                                        <img src="./img/content/tech/roof-design.png" alt="">
+                                        <div class="accordion">
+                                            <h3 class="design__subtitle subtitle">
+                                                Конструкция кровли
+                                            </h3>
+                                            <span></span>
+                                        </div>
+                                        <p class="design__text">
+                                            Гибкая черепица ТЕХНОНИКОЛЬ SHINGLAS - это гарантия комфорта и безопасности вашего дома. Дома с кровлей из гибкой черепицы ТЕХНОНИКОЛЬ SHINGLAS очаровывают своей гармонией, изяществом. Коллекции отличаются разнообразием форм и расцветок.
+                                        </p>
+                                    </li>
+                                    <li class="design__item">
+                                        <img src="./img/content/tech/FCB.png" alt="">
+                                        <div class="accordion">
+                                            <h3 class="design__subtitle subtitle">
+                                                ФБЦ
+                                            </h3>
+                                            <span></span>
+                                        </div>
+                                        <p class="design__text">
+                                            ФБЦ - это уникальный и высококачественный строительный материал для долговечной облицовки фасада.
+            Высокая морозостойкость, пожаробезопасность, хорошая звуко- и теплоизоляция, герметичность, повышенная прочность, погодоустойчивость.
+            Безопасна как для человека, так и для окружающей среды. Они не содержат асбест, состоят из экологически чистых натуральных компонентов: 82-85% цемента, древесное волокно, добавки для снижения веса, кремнийорганические соединения
+                                        </p>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__form">
+                <div class="container">
+                    <div class="form__inner">
+                        <div class="form__text">
+                            <h1 class="form__text-title title">
+                                Скачать презентацию
+                            </h1>
+                            <span class="form__text-text">
+                                Оставьте свои контакты и мы вам вышлем
+                            </span>
+                            <form class="form__contact">
+                                <label class="contact__info-name">
+                                    <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.4999 22.0418C5.67792 22.0418 0.958252 17.3222 0.958252 11.5002C0.958252 5.67816 5.67792 0.958496 11.4999 0.958496C17.3219 0.958496 22.0416 5.67816 22.0416 11.5002C22.0416 17.3222 17.3219 22.0418 11.4999 22.0418ZM18.5911 16.4113C19.5582 15.0176 20.1249 13.325 20.1249 11.5002C20.1249 6.73671 16.2634 2.87516 11.4999 2.87516C6.73646 2.87516 2.87492 6.73671 2.87492 11.5002C2.87492 13.325 3.44166 15.0176 4.40874 16.4113C5.48729 14.9866 8.02175 14.3752 11.4999 14.3752C14.9781 14.3752 17.5125 14.9866 18.5911 16.4113ZM17.2161 17.9591C16.9356 16.9505 14.9206 16.2918 11.4999 16.2918C8.07926 16.2918 6.06426 16.9505 5.78377 17.9591C7.30558 19.3069 9.30719 20.1252 11.4999 20.1252C13.6926 20.1252 15.6943 19.3069 17.2161 17.9591ZM11.4999 14.3752C9.35408 14.3752 7.66659 12.8681 7.66659 9.5835C7.66659 7.43277 9.17989 5.75016 11.4999 5.75016C13.8135 5.75016 15.3333 7.59167 15.3333 9.77516C15.3333 12.9181 13.6256 14.3752 11.4999 14.3752ZM9.58325 9.5835C9.58325 11.7582 10.3674 12.4585 11.4999 12.4585C12.6286 12.4585 13.4166 11.7861 13.4166 9.77516C13.4166 8.57765 12.6649 7.66683 11.4999 7.66683C10.2864 7.66683 9.58325 8.44866 9.58325 9.5835Z" fill="#929AA2"/>
+                                    </svg>
+                                    <input type="text" class="contact__name" placeholder="Ваше имя">
+                                </label>
+                                <label class="contact__info-phone">
+                                    <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.3205 22.6901L20.3439 22.6526L22.6769 17.9171L15.8619 12.8058L12.7263 15.1574C11.5438 15.087 10.4281 14.5855 9.59049 13.7479C8.75285 12.9102 8.25139 11.7946 8.18104 10.612L10.5326 7.47647L5.42145 0.66153L0.725491 2.97514L0.685842 2.99461L0.648436 3.01807C0.449498 3.14153 0.28547 3.31386 0.171968 3.51865C0.0584664 3.72343 -0.000731851 3.95386 6.8291e-06 4.188L6.77569e-06 5.40994C6.67276e-06 7.76435 0.463742 10.0957 1.36474 12.2709C2.26573 14.4461 3.58635 16.4225 5.25117 18.0873C6.91599 19.7522 8.89242 21.0728 11.0676 21.9738C13.2428 22.8747 15.5742 23.3385 17.9286 23.3385H19.1506C19.3847 23.3392 19.6151 23.28 19.8199 23.1665C20.0247 23.053 20.197 22.889 20.3205 22.6901ZM17.9286 21.5885C9.00769 21.5885 1.75001 14.3308 1.75001 5.40994V4.42119L4.89251 2.8732L8.34521 7.4768L6.423 10.0398V10.3315C6.42495 12.0772 7.11929 13.7508 8.35367 14.9852C9.58806 16.2196 11.2617 16.9139 13.0074 16.9159H13.299L15.862 14.9937L20.4653 18.446L18.9171 21.5885H17.9286Z" fill="white"/>
+                                    </svg>
+                                    <input type="tel" class="contact__phone" placeholder="Номер телефона">
+                                </label>
+                                <button class="form__button">
+                                    Отправить
+                                </button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="main__payment" id="payment">
+                <div class="container">
+                    <div class="payment__inner">
+                        <h1 class="payment__title title">
+                            Способы оплаты
+                        </h1>
+                        <div class="payment__content">
+                            <ul class="payment__list">
+                                <li class="payment__item">
+                                    <img src="./img/decor/sber.png" alt="">
+                                    <h3 class="payment__subtitle">
+                                        Получение займа через АО “ЖилСтройСберБанк”
+                                    </h3>
+                                </li>
+                                <li class="payment__item">
+                                    <img src="./img/decor/zero.png" alt="">
+                                    <h3 class="payment__subtitle">
+                                        Получение беспроцентной рассрочки от застройщика NURA ELITE
+                                    </h3>
+                                </li>
+                                <li class="payment__item">
+                                    <img src="./img/decor/mortgage.png" alt="">
+                                    <h3 class="payment__subtitle">
+                                        Казахстанская Ипотечная Компания «Орда»
+                                    </h3>
+                                </li>
+                                <li class="payment__item">
+                                    <img src="./img/decor/btc.png" alt="">
+                                    <h3 class="payment__subtitle">
+                                        Оплата криптовалютой (Биткоин)
+                                    </h3>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__contacts" id="contacts">
+                <div class="container">
+                    <div class="contacts__inner">
+                        <img src="./img/decor/map.jpg" alt="">
+                        <div class="contacts__info">
+                            <h1 class="contacts__title title">
+                                Контакты
+                            </h1>
+                            <address class="contacts__address">
+                                ул. Кунаева 10, БЦ “Изумрудный”, блок - А, этаж 1
+                            </address>
+                            <div class="contacts__contacts">
+                                <ul class="contacts__list">
+                                    <li class="contacts__item phone">
+                                        <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M20.3205 22.6901L20.3439 22.6526L22.6769 17.9171L15.8619 12.8058L12.7263 15.1574C11.5438 15.087 10.4281 14.5855 9.59049 13.7479C8.75285 12.9102 8.25139 11.7946 8.18104 10.612L10.5326 7.47647L5.42145 0.66153L0.725491 2.97514L0.685842 2.99461L0.648436 3.01807C0.449498 3.14153 0.28547 3.31386 0.171968 3.51865C0.0584664 3.72343 -0.000731851 3.95386 6.8291e-06 4.188L6.77569e-06 5.40994C6.67276e-06 7.76435 0.463742 10.0957 1.36474 12.2709C2.26573 14.4461 3.58635 16.4225 5.25117 18.0873C6.91599 19.7522 8.89242 21.0728 11.0676 21.9738C13.2428 22.8747 15.5742 23.3385 17.9286 23.3385H19.1506C19.3847 23.3392 19.6151 23.28 19.8199 23.1665C20.0247 23.053 20.197 22.889 20.3205 22.6901ZM17.9286 21.5885C9.00769 21.5885 1.75001 14.3308 1.75001 5.40994V4.42119L4.89251 2.8732L8.34521 7.4768L6.423 10.0398V10.3315C6.42495 12.0772 7.11929 13.7508 8.35367 14.9852C9.58806 16.2196 11.2617 16.9139 13.0074 16.9159H13.299L15.862 14.9937L20.4653 18.446L18.9171 21.5885H17.9286Z" fill="white"/>
+                                        </svg>                           
+                                        +7 (700) 001-18-88
+                                    </li>
+                                    <li class="contacts__item">
+                                        <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0.75 1.75L9 8.125L17.25 1.75M0.75 1H17.25V13H0.75V1Z" stroke="#333333" stroke-width="1.5"/>
+                                        </svg>
+                                        info@nuramm.kz
+                                    </li>
+                                    <li class="contacts__item">
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.99731 5.12558C7.15795 5.12558 4.86644 7.30255 4.86644 10C4.86644 12.6974 7.15795 14.8744 9.99731 14.8744C12.8367 14.8744 15.1282 12.6974 15.1282 10C15.1282 7.30255 12.8367 5.12558 9.99731 5.12558ZM9.99731 13.168C8.16111 13.168 6.66262 11.7444 6.66262 10C6.66262 8.25557 8.16111 6.83198 9.99731 6.83198C11.8335 6.83198 13.332 8.25557 13.332 10C13.332 11.7444 11.8335 13.168 9.99731 13.168ZM15.3383 3.78993C14.6754 3.78993 14.14 4.29852 14.14 4.92832C14.14 5.55812 14.6754 6.06672 15.3383 6.06672C16.0013 6.06672 16.5366 5.5605 16.5366 4.92832C16.5368 4.77877 16.5059 4.63066 16.4458 4.49246C16.3856 4.35426 16.2974 4.22869 16.1861 4.12294C16.0748 4.01719 15.9426 3.93335 15.7971 3.8762C15.6516 3.81906 15.4957 3.78974 15.3383 3.78993ZM19.9989 10C19.9989 8.68811 20.0114 7.38811 19.9338 6.0786C19.8563 4.55757 19.4911 3.20766 18.3203 2.09541C17.147 0.980781 15.7286 0.636173 14.1275 0.562499C12.7466 0.488824 11.3782 0.500707 9.99981 0.500707C8.61891 0.500707 7.25051 0.488824 5.8721 0.562499C4.27105 0.636173 2.85012 0.983158 1.67935 2.09541C0.506076 3.21004 0.143338 4.55757 0.0657868 6.0786C-0.0117642 7.39049 0.000744099 8.69049 0.000744099 10C0.000744099 11.3095 -0.0117642 12.6119 0.0657868 13.9214C0.143338 15.4424 0.508578 16.7923 1.67935 17.9046C2.85262 19.0192 4.27105 19.3638 5.8721 19.4375C7.25301 19.5112 8.62141 19.4993 9.99981 19.4993C11.3807 19.4993 12.7491 19.5112 14.1275 19.4375C15.7286 19.3638 17.1495 19.0168 18.3203 17.9046C19.4936 16.79 19.8563 15.4424 19.9338 13.9214C20.0139 12.6119 19.9989 11.3119 19.9989 10ZM17.7974 15.604C17.6148 16.0366 17.3947 16.3598 17.0419 16.6925C16.6892 17.0276 16.3515 17.2368 15.8962 17.4103C14.5803 17.907 11.4558 17.7953 9.99731 17.7953C8.53885 17.7953 5.4118 17.907 4.09593 17.4126C3.64064 17.2391 3.30041 17.03 2.95018 16.6949C2.59745 16.3598 2.37731 16.039 2.19469 15.6064C1.67434 14.3539 1.79192 11.3856 1.79192 10C1.79192 8.61444 1.67434 5.64368 2.19469 4.39359C2.37731 3.96104 2.59745 3.63783 2.95018 3.3051C3.30291 2.97238 3.64064 2.76086 4.09593 2.58737C5.4118 2.09303 8.53885 2.20473 9.99731 2.20473C11.4558 2.20473 14.5828 2.09303 15.8987 2.58737C16.354 2.76086 16.6942 2.97 17.0444 3.3051C17.3972 3.6402 17.6173 3.96104 17.7999 4.39359C18.3203 5.64368 18.2027 8.61444 18.2027 10C18.2027 11.3856 18.3203 14.3539 17.7974 15.604Z" fill="#333333"/>
+                                        </svg>
+                                        @nura.premier
+                                    </li>
+                                </ul>
+                                <img src="./img/content/qr.jpg" alt="" class="contacts__qr">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <nav class="footer__nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#advantages-city" class="nav__link">
+                                    Преимущества
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#nura-elite" class="nav__link">
+                                    Почему мы?
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#tech" class="nav__link">
+                                    Технологии
+                                </a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#payment" class="nav__link">
+                                    Способы оплаты
+                                </a>
+                            </li>
+                            <li class="nav__item opened-modal">
+                                <a href="#" class="nav__link">
+                                    МОДАЛКА
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="footer__link">
+                        <a href="#" class="link">
+                            Создание сайта maxico.kz
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="modal">
+        <div class="modal__window">
+            <a href="#" class="modal__cancel">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.75" y="0.75" width="22.5" height="22.5" rx="11.25" stroke="#E1D9E1" stroke-width="1.5"/>
+                    <path d="M6.75781 17.2433L12.0008 12.0003L17.2438 17.2433M17.2438 6.75732L11.9998 12.0003L6.75781 6.75732" stroke="#E1D9E1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+            <h3 class="modal__title">
+                Далеко-далеко, за.
+            </h3>
+            <p class="modal__text">
+                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. От всех, напоивший. Меня гор но, буквенных скатился обеспечивает не. Снова!
+            </p>
+            <form class="modal__form">
+                <label class="modal__form-label field">
+                    <span>Введите номер телефона</span>
+                    <input class="contact__phone" type="tel" placeholder="Номер телефона">
+                </label>
+                <button class="modal__button button" type="submit">
+                    Оставить заявку
+                </button>
+            </form>
+        </div>
+    </div>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
