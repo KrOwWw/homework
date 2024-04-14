@@ -114,6 +114,18 @@
     bottom: 0px;
     transform: rotate(-45deg);
 }
+.burger__contacts a{
+    display: none;
+}
+.nav__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav__item path,
+.nav__item rect {
+    fill: #333;
+}
 
 .header__hero {
     padding-bottom: 150px;
