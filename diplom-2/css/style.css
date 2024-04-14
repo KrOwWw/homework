@@ -92,7 +92,6 @@
     font-weight: 700;
     font-size: 20px;
     padding-bottom: 30px;
-    padding-top: 60px;
 }
 .target__description {
     font-weight: 300;
@@ -216,7 +215,7 @@
 /* ================== */
 
 .main__advantages-city {
-    padding: 70px 0 160px;
+    padding: 70px 0;
     position: relative;
 }
 .main__advantages-city::before {
@@ -424,7 +423,7 @@
 .form__inner {
     border: 8px solid #842231;
     border-radius: 8px;
-    padding: 70px 99px;
+    padding: 70px 15px;
 }
 .form__text {
     display: flex;
