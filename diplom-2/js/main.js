@@ -88,9 +88,8 @@
     // Слайдер
 
     const swiper = new Swiper('.cottage__swiper', {
-        // Optional parameters
-        // direction: 'vertical',
-        // loop: true,
+        spaceBetween: 150,
+        slidesPerView: 1,
 
         navigation: {
             nextEl: '.cottage__next',
