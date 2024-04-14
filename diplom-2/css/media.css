@@ -41,9 +41,17 @@
     }
 
     /* --------------- */
-
+    .design__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .design__list {
         flex-direction: column;
+    }
+    .design__text{
+        text-align: center;
     }
 
     /* --------------- */
@@ -136,11 +144,11 @@
     }
     
     /* ------------ */
-
+    
     .city-item5 img{
         max-width: 200%;
     }
-
+    
     .advantages__grid {
         grid-template: repeat(2, auto) / repeat(2, auto);
         gap: 50px;
@@ -162,9 +170,17 @@
     .nura-elite__content::before {
         display: none;
     }
+
+    /* ------------ */
+
+    .nav__item {
+        text-align: center;
+    }
 }
 @media (max-width: 800px) {
-
+    .header__contact a{
+        display: none;
+    }
     .header__nav {
         position: absolute;
         z-index: 10;
@@ -197,20 +213,21 @@
     .burger-icon {
         display: flex;
     }
-
+    .burger__contacts a{
+        display: flex;
+    }
     .nav__list {
         flex-wrap: nowrap;
         display: flex;
         flex-direction: column;
-
         gap: 30px;
-
     }
 
     .nav__wrap {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         gap: 30px;
     }
 
@@ -224,7 +241,9 @@
         text-align: center;
     }
 
-    /* --------------- */
+    footer .nav__list {
+        align-items: center;
+    }
 }
 @media (max-width: 750px) {
     .header__contact {
@@ -337,7 +356,7 @@
         width: 300px;
     }
     .cottage__drawing img{
-        width: 300px;
+        width: 200px;
     }
 
     /* ----------------- */
@@ -374,8 +393,6 @@
         grid-column: 1;
         grid-row: 4;
     }
-
-    /* ----------------- */
 }
 @media (max-width: 550px) {
     .hero__title {
@@ -398,13 +415,12 @@
     
     .design__list {
         width: 100%;
-        align-items: start;
     }
 }
 @media (max-width: 470px) {
 
     .container {
-        padding: 0;
+        padding: 20px;
     }
 
     /* ------------------ */
