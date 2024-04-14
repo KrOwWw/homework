@@ -102,6 +102,12 @@
     
     /* ------------ */
 
+    .header__top {
+        padding-bottom: 0;
+    }
+
+    /* ------------ */
+
     .modal__text { 
         padding: 0;
     }
@@ -125,6 +131,12 @@
     }
 
     /* ------------ */
+
+    div.location__content {
+        padding-top: 50px;
+    }
+
+    /* ------------ */
     
     .cottage__img {
         width: 500px;
@@ -135,9 +147,18 @@
     .location__inner {
         flex-direction: column;
     }
+    div.location__img {
+        padding-top: 0;
+    }
 
     /* ------------ */
-    
+
+    #advantages-city{
+        padding: 0;
+    }
+
+    /* ------------ */
+
     .design__list {
         flex-direction: column;
         align-items: center;
@@ -164,11 +185,17 @@
     .content__cottage{
         display: none;
     }
-    .nura-elite__content {
+    div.nura-elite__content {
         padding-bottom: 0px;
     }
     .nura-elite__content::before {
         display: none;
+    }
+
+    /* ------------ */
+
+    section.main__payment {
+        margin-top: 0;
     }
 
     /* ------------ */
@@ -283,8 +310,8 @@
 
     /* --------------- */
 
-    .main__advantages-city {
-        padding: 70px 0 160px 25px;
+    div.main__advantages-city {
+        padding: 70px 0 16px 25px;
     }
     .advantages-city__grid {
         grid-template: repeat(7, auto) / repeat(1, auto);
@@ -378,10 +405,6 @@
 
     /* ----------------- */
 
-    .main__advantages-city{
-        padding: 70px 0 160px 15px;
-    }
-
     .advantages__grid {
         grid-template: repeat(4, auto) / repeat(1, auto);
     }
@@ -461,13 +484,7 @@
     }
 
     /* ------------------ */
-
-    .main__advantages-city {
-        padding: 70px 0 160px 0;
-    }
-
-    /* ------------------ */
-
+    
     .nura-elite__advantages {
         padding-left: 5%;
     }
